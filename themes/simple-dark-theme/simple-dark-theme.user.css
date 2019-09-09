@@ -8,7 +8,7 @@
    @homepage      https://robinwils.gitlab.io
    @include       https://robinwils.gitlab.io*
    @license CC0
-   @version 1.0.0
+   @version 1.0.1
    ==/UserStyle== */
 
 @-moz-document domain("robinwils.gitlab.io"){
@@ -59,4 +59,9 @@
 
   img
   {opacity:.6}
+
+  @media only screen and (max-width:32rem) {
+    header a:not(:last-child)
+    {border-color:#111}
+  }
 }
