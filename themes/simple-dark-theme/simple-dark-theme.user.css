@@ -8,7 +8,7 @@
    @homepage      https://robinwils.gitlab.io
    @include       https://robinwils.gitlab.io*
    @license CC0
-   @version 1.0.2
+   @version 1.0.3
    ==/UserStyle== */
 
 @-moz-document domain("robinwils.gitlab.io"){
@@ -29,21 +29,15 @@
 
   body,
   blockquote,
-  img,
-  .toc,
-  video,
-  #move-to-top-button
-  {border-color:#1a1a1a}
-  
+  footer,
   header,
-  #footer-menu
-  {border-color:#1a1a1a}
-
-  blockquote
-  {border-color:#1a1a1a}
-
-  footer
-  {border-color:#1a1a1a}
+  img,
+  video,
+  .toc,
+  #footer-menu,
+  #move-to-top-button,
+  #social-media-links
+  {border-color:#1A1A1A}
 
   body
   {box-shadow:0 0 .4rem .4rem #010101}
@@ -56,13 +50,13 @@
   #nav-toggle-hide,
   #nav-toggle-show,
   #move-to-top-button
-  {color:#b2b2b2}
+  {color:#B2B2B2}
 
   img
   {opacity:.6}
 
   @media only screen and (max-width:32rem) {
     header a:not(:last-child)
-    {border-color:#1a1a1a}
+    {border-color:#1A1A1A}
   }
 }
