@@ -8,57 +8,60 @@
    @homepage      https://robinwils.gitlab.io
    @include       https://robinwils.gitlab.io*
    @license CC0
-   @version 1.0.4
+   @version 1.0.5
    ==/UserStyle== */
 
-@-moz-document domain("robinwils.gitlab.io"){
-  html
-  {background-color:#010101} 
-
-  footer,
-  header,
-  #move-to-top-button
-  {background-color:#262626}
-  
-  blockquote,
-  .link-list a,
-  .toc,
-  #social-media-links
-  {background-color:#333}
-
-  body
-  {background-color:#444}
-
-  body,
-  blockquote,
-  footer,
-  header,
-  img,
-  video,
-  .toc,
-  #footer-menu,
-  #move-to-top-button,
-  #social-media-links
-  {border-color:#1A1A1A}
-
-  body
-  {box-shadow:0 0 .4rem .4rem #010101}
-  
-  a,
-  a:visited
-  {color:#66F}
-
-  body,
+@-moz-document domain("robinwils.gitlab.io") {
   #nav-toggle-hide,
   #nav-toggle-show,
-  #move-to-top-button
-  {color:#B2B2B2}
+  header nav
+  {background-color:#2D2D2D}
+
+  html
+  {background-color:#010101}
+
+  .link-list a
+  {background-color:#252525}
+
+  body
+  {background-color:#1A1A1A}
+
+  blockquote,
+  img,
+  .toc,
+  video,
+  main,
+  #social-media-links
+  {border-color:#323232}
+
+  body
+  {box-shadow: 0 0 .4rem .4rem #212121}
+
+  a,
+  a:visited
+  {color:#5c5cd6}
+
+  a:hover,
+  a:visited:hover
+  {color:#4747d1}
+
+  body
+  {color:#B1B1B1}
+
+  a[href="#"]:not(.default-color),
+  header a:hover,
+  header a:visited:hover,
+  #nav-toggle-hide:hover,
+  #nav-toggle-show:hover,
+  #nav-toggle-hide:visited:hover,
+  #nav-toggle-show:visited:hover
+  {color:#BBB}
+
+  #nav-toggle-hide,
+  #nav-toggle-show,
+  header a
+  {color:#DDD}
 
   img
   {opacity:.6}
-
-  @media only screen and (max-width:32rem) {
-    header a:not(:last-child)
-    {border-color:#1A1A1A}
-  }
 }
