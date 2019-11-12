@@ -8,7 +8,7 @@
    @homepage      https://robinwils.gitlab.io
    @include       https://robinwils.gitlab.io*
    @license CC0
-   @version 1.0.6
+   @version 1.0.7
    ==/UserStyle== */
 
 @-moz-document domain("robinwils.gitlab.io") {
@@ -37,9 +37,11 @@
   body
   {box-shadow: 0 0 .4rem .4rem #212121}
 
-  a,
-  a:visited
+  a
   {color:#9B9BFF}
+
+  a:visited
+  {color:#AC81E0}
 
   a:hover,
   a:visited:hover
