@@ -8,7 +8,7 @@
    @homepage      https://robinwils.gitlab.io
    @include       https://robinwils.gitlab.io*
    @license CC0
-   @version 1.0.8
+   @version 1.0.9
    ==/UserStyle== */
 
 @-moz-document domain("robinwils.gitlab.io") {
@@ -57,10 +57,13 @@
 
   a[href="#"]:not(.default-color),
   header a:hover,
+  header a:visited,
   header a:visited:hover,
   #nav-toggle-hide:hover,
-  #nav-toggle-show:hover,
+  #nav-toggle-hide:visited,
   #nav-toggle-hide:visited:hover,
+  #nav-toggle-show:hover,
+  #nav-toggle-show:visited,
   #nav-toggle-show:visited:hover
   {color:#BBB}
 
