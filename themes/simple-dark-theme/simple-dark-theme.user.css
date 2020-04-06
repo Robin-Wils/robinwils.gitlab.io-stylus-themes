@@ -8,24 +8,24 @@
    @homepage      https://robinwils.gitlab.io
    @include       https://robinwils.gitlab.io*
    @license CC0
-   @version 1.1.1
+   @version 1.1.2
    ==/UserStyle== */
 
 @-moz-document domain("robinwils.gitlab.io") {
   #nav-toggle-hide,
   #nav-toggle-show,
   header nav
-  {background-color:#2D2D2D}
+  {background-color:#030202}
 
   html
-  {background-color:#010101}
+  {background-color:#555}
 
   .link-list a,
   .filter-item
   {background-color:#252525}
 
   body
-  {background-color:#1A1A1A}
+  {background-color:#343434}
 
   blockquote,
   img,
@@ -51,7 +51,7 @@
   {color:#8080ff}
 
   body
-  {color:#B1B1B1}
+  {color:#c9c8c8}
 
   header a,
   header a:visited
